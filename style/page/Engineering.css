@@ -1,0 +1,39 @@
+#engineering {
+    margin-top: 8.5rem;
+    margin-bottom: 10rem;
+}
+
+#engineering .heading-info:nth-child(2) {
+    margin-top: 5rem;
+}
+
+#engineering .col-lg-12 {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#engineering .col-lg-12 .box-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+@media screen and (max-width: 496px) {
+    .engineering .hero-title h1 {
+        font-size: 2.8rem !important;
+    }
+    .engineering .hero-title p {
+        font-size: 1.3rem !important;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .engineering .hero-title p {
+        font-size: 1.2rem !important;
+    }
+}

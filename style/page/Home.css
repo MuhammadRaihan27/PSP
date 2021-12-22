@@ -1,0 +1,636 @@
+/* ========== Carousel ========== */
+
+.swp-bg {
+    height: 40rem;
+}
+
+.bg1 {
+    background: url("../../assets/img/Home/Carousel/Picture1.png");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg2 {
+    background: url("../../assets/img/Home/Carousel/Picture2.jpg");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg3 {
+    background: url("../../assets/img/Home/Carousel/Picture3.png");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg4 {
+    background: url("../../assets/img/Home/Carousel/Picture4.png");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swp-bg::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(102, 102, 102, 0.53);
+}
+
+.my-swiper {
+    position: relative;
+}
+
+.mySwiper .swiper-button-next,
+.mySwiper .swiper-button-prev {
+    color: #fff;
+}
+
+.mySwiper .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.mySwiper .swiper-slide .container {
+    z-index: 9999;
+}
+
+.mySwiper .title {
+    color: #fff;
+    margin-bottom: 10rem;
+}
+
+.mySwiper .title .heading h1 {
+    font-family: var(--fontrob);
+    font-weight: var(--fw-bold3);
+    letter-spacing: 1px;
+}
+
+.mySwiper.title .heading h1>span {
+    color: var(--yellow);
+}
+
+.mySwiper .title .deskription {
+    width: 30rem;
+    font-weight: var(--fw-bold1);
+}
+
+
+/* ========== Carousel ========== */
+
+
+/* ========== Section 1 ========== */
+
+
+/* Col 1 */
+
+#sec-1 {
+    padding-top: 7rem;
+}
+
+#sec-1 .heading {
+    color: var(--dark-blue);
+}
+
+#sec-1 .heading-info {
+    font-size: var(--fs-1rem);
+    color: var(--yellow2);
+}
+
+#sec-1 .heading>h2:nth-child(2) {
+    font-weight: var(--fw-bold2);
+    font-size: var(--fs-1-5rem);
+}
+
+#sec-1 .deskription {
+    color: var(--grey4);
+    font-weight: var(--fw-bold1);
+}
+
+
+/* Col 1 */
+
+
+/* Col 2 */
+
+#sec-1 .img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2.5rem;
+}
+
+#sec-1 img {
+    width: 20rem;
+}
+
+
+/* Col 2 */
+
+
+/* Col 3 */
+
+#sec-1 .excess-group {
+    padding-top: 3rem;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+#sec-1 .excess-item .heading {
+    display: flex;
+    align-items: center;
+    margin-bottom: 6px;
+}
+
+#sec-1 .excess-item .heading h3 {
+    font-weight: var(--fw-bold2);
+    font-size: var(--fs-1rem);
+    margin: 0 10px;
+}
+
+#sec-1 .excess-item .circle {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: var(--yellow2);
+}
+
+#sec-1 .excess-item .deskription {
+    margin-left: 1.4rem;
+}
+
+
+/* Col 3 */
+
+
+/* ========== Section 1 ========== */
+
+
+/* ========== Section 2 ========== */
+
+
+/* Row 1 */
+
+#sec-2 .container {
+    margin-top: 7.5rem;
+}
+
+#sec-2 .heading-info {
+    font-size: var(--fs-1rem);
+    color: var(--yellow2);
+}
+
+#sec-2 .heading>h2:nth-child(2) {
+    font-weight: var(--fw-bold2);
+    font-size: var(--fs-1-5rem);
+    color: var(--dark-blue);
+}
+
+#sec-2 .deskription {
+    color: var(--grey4);
+    font-weight: var(--fw-bold1);
+}
+
+
+/* Row 1 */
+
+
+/* Row 2 */
+
+#sec-2 .card {
+    position: relative;
+    overflow-x: hidden;
+    border-radius: 7px;
+    transition: 0.3s ease-out;
+}
+
+#sec-2 .card:hover {
+    background-color: var(--yellow2);
+}
+
+#sec-2 .card .card-title {
+    position: relative;
+}
+
+#sec-2 .card .card-title::after {
+    content: "";
+    position: absolute;
+    bottom: -55%;
+    right: -2em;
+    width: 100%;
+    height: 2px;
+    background-color: rgb(208, 208, 208);
+    transition: 0.3s ease-out;
+}
+
+#sec-2 .card .card-icon>i {
+    color: var(--yellow2);
+    font-size: 4rem;
+}
+
+#sec-2 .card .card-text a {
+    text-decoration: none;
+    color: var(--grey4);
+    font-weight: var(--fw-bold1);
+    transition: 0.3s ease-in-out;
+}
+
+#sec-2 .card .card-text .link-item {
+    cursor: pointer;
+}
+
+#sec-2 .card .card-text .link-item a>i {
+    color: var(--yellow2);
+    cursor: pointer;
+    transition: 0.3s ease-out;
+}
+
+#sec-2 .card .card-icon .iconify {
+    color: var(--yellow2) !important;
+}
+
+#sec-2 .card .card-text .link-item:hover a {
+    color: var(--yellow2);
+}
+
+#sec-2 .card .card-text .link-item:hover i {
+    color: var(--yellow2);
+    transform: translateX(3px);
+}
+
+#sec-2 .card:hover .card-title {
+    color: #fff;
+}
+
+#sec-2 .card:hover .card-title::after {
+    background-color: #fff;
+}
+
+#sec-2 .card:hover .card-icon i {
+    color: #fff;
+}
+
+#sec-2 .card:hover .card-icon .iconify {
+    color: #fff !important;
+}
+
+#sec-2 .card:hover .card-text .link-item a {
+    color: #fff;
+}
+
+#sec-2 .card:hover .card-text .link-item i {
+    color: #fff;
+}
+
+
+/* Row 2 */
+
+
+/* ========== Section 2 ========== */
+
+
+/* ========== Section 3 ========== */
+
+#sec-3 .container {
+    margin-top: 8rem;
+    border-radius: 12px;
+    background-color: var(--yellow2);
+    overflow-x: hidden;
+    padding: 0;
+}
+
+
+/* Col 1 */
+
+#sec-3 .heading-info {
+    font-size: var(--fs-1rem);
+    color: #fff;
+}
+
+#sec-3 .heading>h2:nth-child(2) {
+    font-weight: var(--fw-bold2);
+    font-size: var(--fs-1-5rem);
+    color: #fff;
+}
+
+#sec-3 .deskription {
+    color: var(--grey1);
+    font-size: var(--fs-small);
+    font-weight: var(--fw-bold1);
+    color: #fff;
+}
+
+#sec-3 .excess-group {
+    position: relative;
+    display: flex;
+}
+
+#sec-3 .excess-item h4 {
+    position: relative;
+    font-size: 1.2rem;
+    margin-top: 1.5rem;
+    color: #fff;
+}
+
+#sec-3 .excess-item h4::after {
+    content: "";
+    position: absolute;
+    bottom: -40%;
+    left: 0;
+    width: 2.4rem;
+    height: 0.2rem;
+    border-radius: 20px;
+    background-color: #fff;
+}
+
+
+/* Col 1 */
+
+
+/* Col 2 */
+
+#sec-3 .img {
+    background: url("/assets/img/Home/Our Team/team.png") no-repeat center;
+    background-size: cover;
+    object-fit: cover;
+    height: 35rem;
+    background-position: 0 -1.5px;
+}
+
+
+/* Col 2 */
+
+
+/* ========== Section 3 ========== */
+
+
+/* ========== Section 4 ========== */
+
+
+/* Col 1 */
+
+#sec-4 {
+    position: relative;
+    background: url("/assets/img/Home/section4.png") no-repeat center;
+    background-size: cover;
+    object-fit: cover;
+    border-top-right-radius: 10rem;
+}
+
+#sec-4::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-top-right-radius: 10rem;
+    background-color: #525151;
+    opacity: 87%;
+}
+
+#sec-4 .container {
+    margin-top: 10rem;
+}
+
+#sec-4 .col-lg-6 {
+    color: #fff;
+    padding: 3.5rem 0;
+    z-index: 99;
+}
+
+#sec-4 .heading-info {
+    font-size: var(--fs-1rem);
+    color: #fff;
+}
+
+#sec-4 .heading>h2:nth-child(2) {
+    font-weight: var(--fw-bold2);
+    font-size: var(--fs-1-5rem);
+    color: #fff;
+}
+
+#sec-4 .excess-item {
+    margin-bottom: 2rem;
+}
+
+#sec-4 .excess-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
+#sec-4 .excess-info i {
+    color: #fff;
+}
+
+#sec-4 .excess-info h4 {
+    font-size: 1.3rem;
+    margin: 0 0 0 10px;
+}
+
+#sec-4 .excess-deks {
+    margin-left: 1.7rem;
+}
+
+
+/* Col 1 */
+
+
+/* Col 2 */
+
+#sec-4 .commit {
+    padding-left: 2rem;
+}
+
+#sec-4 .psp-commit {
+    margin-top: 6.8rem;
+}
+
+#sec-4 .psp-commit .heading {
+    position: relative;
+    margin-bottom: 3rem;
+}
+
+#sec-4 .psp-commit .heading::after {
+    content: "";
+    position: absolute;
+    bottom: -0.8rem;
+    left: 0;
+    width: 7rem;
+    height: 4px;
+    border-radius: 20px;
+    background-color: #fff;
+}
+
+#sec-4 .psp-commit h4 {
+    font-size: 1.9rem;
+}
+
+
+/* Col 2 */
+
+
+/* ========== Section 4 ========== */
+
+
+/* Breakpoint */
+
+@media screen and (max-width: 1600px) {
+    #sec-1 .excess-group {
+        padding-top: 1.5rem;
+        height: max-content;
+    }
+    #sec-1 .excess-item {
+        margin-top: 1.7rem;
+    }
+}
+
+@media screen and (max-width: 1399px) {
+    #sec-4 .psp-commit {
+        margin-top: 8rem;
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    #sec-1 .excess-group {
+        padding-top: 1.5rem;
+        height: max-content;
+        margin-left: 2rem;
+    }
+    #sec-1 .excess-item {
+        margin-top: 1.7rem;
+    }
+    #sec-3 .excess-item h4 {
+        font-size: var(--fs-1rem);
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .mySwiper .title {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .mySwiper .title .heading,
+    .mySwiper .title .deskription {
+        text-align: center;
+    }
+    .mySwiper .title .deskription {
+        width: 20rem;
+    }
+    #sec-1 .excess-group {
+        align-items: flex-start;
+        padding-top: 2rem;
+    }
+    #sec-3 .excess-group {
+        justify-content: space-between;
+    }
+    #sec-3 .excess-item {
+        font-size: var(--fs-1rem);
+        width: 10rem;
+    }
+    #sec-4 .row {
+        padding: 1.5rem;
+    }
+    #sec-4 .commit {
+        padding-left: 0rem;
+    }
+    #sec-4 .psp-commit {
+        margin-top: -3rem;
+        margin-bottom: 5rem;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    #sec-3 {
+        padding: 1.5rem;
+    }
+    #sec-3 .excess-group {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+    }
+    #sec-3 .excess-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        width: max-content;
+        margin-bottom: 2.4rem;
+    }
+    #sec-3 .excess-item:nth-child(1) {
+        margin-right: 1rem;
+    }
+    #sec-3 .excess-item h4::after {
+        bottom: -80%;
+        left: 40%;
+    }
+}
+
+@media screen and (max-width: 519px) {
+    #sec-3 .excess-item:nth-child(2) {
+        margin-right: 1rem;
+    }
+}
+
+@media screen and (max-width: 504px) {
+    #sec-3 .excess-item:nth-child(1) {
+        margin-left: 1rem;
+    }
+    #sec-3 .excess-item:nth-child(2) {
+        margin-left: 1rem;
+    }
+}
+
+@media screen and (max-width: 436px) {
+    #btn-next,
+    #btn-prev {
+        display: none;
+    }
+    .mySwiper .swp-bg {
+        height: 35rem;
+    }
+}
+
+@media screen and (max-width: 399px) {
+    #sec-1 img {
+        width: 15rem;
+    }
+}
+
+@media screen and (max-width: 354px) {
+    #sec-3 .excess-item {
+        width: 10rem;
+    }
+}
+
+@media screen and (max-width: 340px) {
+    .mySwiper .title .deskription {
+        width: 15rem;
+    }
+}

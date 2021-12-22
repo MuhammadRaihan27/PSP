@@ -1,0 +1,22 @@
+@import url("__Color.css");
+@import url("__Global.css");
+@import url("__Font.css");
+
+/* Pages */
+
+@import url("page/Home.css");
+@import url("page/AboutUs.css");
+@import url("page/Product.css");
+@import url("page/Epc.css");
+@import url("page/Contact.css");
+@import url("page/Fabrication.css");
+@import url("page/Service.css");
+@import url("page/Engineering.css");
+@import url("page/Engineeringdesain.css");
+@import url("page/Operating&Maintenance.css");
+
+/* Fixed */
+
+@import url("Navbar.css");
+@import url("Footer.css");
+@import url("OurProduct.css");

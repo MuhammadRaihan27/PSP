@@ -1,0 +1,74 @@
+#about-us {
+    margin-top: 8.5rem;
+}
+
+#about-us .heading-info,
+#about-us .mission h3,
+#about-us .mission h5 {
+    color: var(--dark-blue);
+}
+
+#about-us .deksription {
+    width: 35rem;
+    color: var(--grey4);
+    font-weight: var(--fw-bold1);
+}
+
+#about-us .heading-info,
+#about-us .mission h3,
+#about-us .vision h3 {
+    font-weight: var(--fw-bold2);
+}
+
+#about-us .vision {
+    color: #fff;
+    padding: 2rem;
+    margin-bottom: 2.5rem;
+    border-radius: 1rem;
+    background-color: var(--green);
+    box-shadow: 12px 13px 4px rgba(0, 0, 0, 25%);
+}
+
+#about-us .vision p,
+#about-us .mission p {
+    color: var(--grey4);
+    font-weight: var(--fw-bold1);
+}
+
+#about-us .vision p {
+    color: #fff;
+}
+
+#about-us .mission {
+    margin-left: 2rem;
+}
+
+#about-us h5 {
+    position: relative;
+}
+
+#about-us h5::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -1.5rem;
+    width: 9px;
+    height: 1.7rem;
+    border-radius: 20px;
+    background-color: var(--red);
+}
+
+@media screen and (max-width: 1400px) {
+    #about-us .deksription {
+        width: inherit;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    #about-us .deksription {
+        width: inherit;
+    }
+    #about-us .vision {
+        margin-top: 4.5rem;
+    }
+}

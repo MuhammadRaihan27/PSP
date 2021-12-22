@@ -1,0 +1,16 @@
+#services {
+    margin-top: 8.5rem;
+}
+
+#services-img .row {
+    margin-top: 8rem;
+    row-gap: 2rem;
+}
+
+#services-img .top {
+    margin-top: 10rem;
+}
+
+#services-img .row img {
+    width: 100%;
+}

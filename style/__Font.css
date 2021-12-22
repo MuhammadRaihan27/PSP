@@ -1,0 +1,19 @@
+:root {
+  /* Font Family */
+  --fontfami: "Poppins", sans-serif;
+  --fontrob: "Roboto", sans-serif;
+
+  /* Font Size */
+  --fs-small: 15px;
+  --fs-1rem: 1rem;
+  --fs-1-5rem: 1.5rem;
+  --fs-2rem: 2rem;
+  --fs-2-5rem: 2.5rem;
+
+  /* Font Weight */
+  --fw-light: 300;
+  --fw-normal: 400;
+  --fw-bold1: 500;
+  --fw-bold2: 600;
+  --fw-bold3: 700;
+}

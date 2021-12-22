@@ -1,0 +1,73 @@
+#our-product .container {
+    margin-top: 8rem;
+}
+
+#our-product .row {
+    position: relative;
+}
+
+#our-product .next-btn,
+#our-product .prev-btn {
+    font-size: 3rem;
+    width: max-content;
+    color: var(--grey1);
+    position: absolute;
+    cursor: pointer;
+    transition: .3s ease-out;
+}
+
+#our-product .next-btn:hover,
+#our-product .prev-btn:hover {
+    color: var(--yellow2);
+}
+
+#our-product .next-btn {
+    top: -7.5rem;
+    left: 49.5%;
+}
+
+#our-product .prev-btn {
+    top: -7.5rem;
+    right: 49.5%;
+}
+
+#our-product h4 {
+    font-size: 2.5rem;
+    font-weight: var(--fw-bold2);
+    color: var(--dark-blue);
+    margin-bottom: 9rem;
+}
+
+#our-product .slide .item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#our-product .slide .item>img {
+    width: 12rem;
+}
+
+@media screen and (max-width: 768px) {
+    #our-product .slide .item>img {
+        width: 13rem;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    #our-product .slide .item>img {
+        width: 20rem;
+    }
+}
+
+@media screen and (max-width:412px) {
+    #our-product .slide .item>img {
+        width: 16rem;
+    }
+}
+
+@media screen and (max-width:333px) {
+    #our-product .slide .item>img {
+        width: 14rem;
+    }
+}

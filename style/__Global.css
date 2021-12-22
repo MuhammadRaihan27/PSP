@@ -1,0 +1,237 @@
+ @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+ @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@400;500;700&display=swap");
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: var(--fontfami);
+ }
+ 
+ body {
+     /* height: 1000rem; */
+ }
+ /* ------- Hero ------- */
+ 
+ #hero {
+     position: relative;
+     background: url("/assets/img/About Us/Header2.jpg") no-repeat center;
+     background-size: cover;
+     background-attachment: fixed;
+     height: 40rem;
+     color: #fff;
+ }
+ 
+ #hero::before {
+     content: "";
+     position: absolute;
+     width: 100%;
+     height: 100%;
+     background-color: #7B7B7B;
+     opacity: 46%;
+ }
+ 
+ #hero .hero-info {
+     background: url("/assets/img/About Us/Rectangle.png") no-repeat center;
+     background-size: cover;
+     object-fit: cover;
+     position: absolute;
+     right: 0;
+     top: 0;
+     padding: 2rem;
+     width: 40rem;
+     height: 100%;
+     background-position: 0;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+ }
+ 
+ #hero .hero-logo {
+     position: absolute;
+     right: 2.5rem;
+     top: 3rem;
+ }
+ 
+ #hero .hero-title {
+     display: flex;
+     flex-direction: column;
+     align-items: flex-end;
+     margin-bottom: 6rem;
+     margin-left: auto;
+ }
+ 
+ #hero .hero-title h1 {
+     font-size: 5rem;
+     margin: 0;
+ }
+ 
+ #hero .hero-title p {
+     margin: 0;
+     font-size: 2rem;
+ }
+ 
+ #hero .hero-title p span:nth-child(1) {
+     color: var(--green);
+     font-weight: var(--fw-bold1);
+ }
+ 
+ #hero .hero-title p span:nth-child(2) {
+     color: var(--red);
+     font-weight: var(--fw-bold2);
+ }
+ /* ------- Hero ------- */
+ /* ------- Info Service & Product ------- */
+ 
+ .headinfo .text {
+     padding-top: 2rem;
+ }
+ 
+ .headinfo .heading-info {
+     position: relative;
+     color: var(--dark-blue);
+     font-weight: var(--fw-bold2);
+ }
+ 
+ .headinfo .heading-info {
+     width: max-content;
+     margin-bottom: 1.4rem;
+ }
+ 
+ .headinfo .heading-info::after {
+     content: "";
+     position: absolute;
+     top: 55%;
+     right: -15.8rem;
+     width: 15rem;
+     height: 2px;
+     background-color: var(--grey3);
+ }
+ 
+ .headinfo .deksription p {
+     color: var(--grey4);
+     font-weight: var(--fw-bold1);
+ }
+ 
+ .headinfo .deksription p span {
+     color: var(--dark-blue);
+ }
+ 
+ .flex-img {
+     display: flex;
+     padding: 0;
+ }
+ 
+ .flex-start {
+     justify-content: flex-start;
+ }
+ 
+ .flex-end {
+     justify-content: flex-end;
+ }
+ /* ------- Info Service & Product ------- */
+ 
+ @media screen and (max-width: 1199px) {
+     .flex-img img {
+         width: 350px;
+     }
+ }
+ 
+ @media screen and (max-width: 991px) {
+     .flex-end {
+         justify-content: flex-start;
+     }
+     .flex-img {
+         display: flex;
+         padding: 0.5rem;
+     }
+ }
+ 
+ @media screen and (max-width: 910px) {
+     #hero .hero-info {
+         width: 30rem;
+         background-position: 0 0;
+     }
+     #hero .hero-title {
+         margin-left: auto;
+     }
+     #hero .hero-title h1 {
+         font-size: 3.5rem;
+         margin: 0;
+     }
+     #hero .hero-title p {
+         margin: 0;
+         font-size: 1.5rem;
+     }
+ }
+ 
+ @media screen and (max-width: 585px) {
+     .headinfo .heading-info::after {
+         width: 12rem;
+         right: -13rem;
+     }
+ }
+ 
+ @media screen and (max-width: 575px) {
+     .container {
+         padding: 1.5rem;
+     }
+ }
+ 
+ @media screen and (max-width: 535px) {
+     .headinfo .heading-info::after {
+         width: 9rem;
+         right: -10rem;
+     }
+ }
+ 
+ @media screen and (max-width: 496px) {
+     #hero .hero-logo {
+         right: 1rem;
+     }
+     #hero .hero-info {
+         width: 25rem;
+         background-position: 0 0;
+     }
+     #hero .hero-title h1 {
+         font-size: 3.5rem;
+         margin: 0;
+     }
+     #hero .hero-title p {
+         margin: 0;
+         font-size: 1.5rem;
+     }
+ }
+ 
+ @media screen and (max-width: 478px) {
+     .headinfo .heading-info::after {
+         width: 7rem;
+         right: -7.9rem;
+     }
+ }
+ 
+ @media screen and (max-width: 443px) {
+     .headinfo .heading-info::after {
+         display: none;
+     }
+ }
+ 
+ @media screen and (max-width: 420px) {
+     #hero .hero-info {
+         width: 23rem;
+     }
+     #hero .hero-title h1 {
+         font-size: 3.5rem;
+         margin: 0;
+     }
+     #hero .hero-title p {
+         margin: 0;
+         font-size: 1.5rem;
+     }
+ }
+ 
+ @media screen and (max-width: 400px) {
+     .flex-img img {
+         width: 300px;
+     }
+ }

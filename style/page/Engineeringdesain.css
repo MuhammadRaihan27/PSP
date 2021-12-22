@@ -1,0 +1,19 @@
+#engineering-desain {
+    margin-top: 8.5rem;
+}
+
+#engineering-desain .heading-info {
+    margin: 4rem 0;
+}
+
+#engineering-desain .row {
+    row-gap: 2rem;
+}
+
+#engineering-desain .top {
+    margin-top: 10rem;
+}
+
+#engineering-desain .row img {
+    width: 100%;
+}

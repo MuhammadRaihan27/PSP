@@ -1,0 +1,131 @@
+#footer {
+    margin-top: 8.5rem;
+    padding: 6rem 0 0 0;
+    background-color: var(--bg-dark3);
+    color: #fff;
+}
+
+
+/* Row 1 */
+
+#footer .row:nth-child(1) {
+    margin-bottom: 6rem;
+    /* background-color: aqua; */
+    place-content: center;
+}
+
+#footer .psp-quote {
+    font-weight: var(--fw-bold1);
+}
+
+#footer .social-media a {
+    text-decoration: none;
+    color: var(--grey2);
+    font-size: 2rem;
+    transition: .2s ease-in-out;
+}
+
+#footer .social-media>a:nth-child(1):hover {
+    color: #5ba9f7;
+}
+
+#footer .social-media>a:nth-child(2):hover {
+    color: #da5050;
+}
+
+#footer .social-media>a:nth-child(3):hover {
+    color: #418cee;
+}
+
+#footer .footer-nav {
+    list-style: none;
+}
+
+#footer .footer-item p {
+    margin: 0;
+}
+
+#footer .footer-item a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#footer .footer-item a:hover {
+    text-decoration: underline;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/* Row 1 */
+
+
+/* Row 2 */
+
+#footer .row:nth-child(2) .location-info {
+    position: relative;
+}
+
+#footer .cikampek {
+    margin-top: 3.5rem;
+}
+
+#footer .copyright {
+    background-color: var(--bg-dark4);
+    margin-top: 5rem;
+    height: 10rem;
+}
+
+#footer .copyright .name-pt {
+    color: var(--yellow);
+}
+
+
+/* Row 2 */
+
+
+/* Breakpoints */
+
+@media screen and (min-width: 992px) {
+    #footer .navigation {
+        padding-top: 1rem;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .flex {
+        align-items: flex-start;
+    }
+    /* Row 1 */
+    #footer .row:nth-child(1) .col-12 {
+        margin-top: 2rem;
+    }
+    /* Row 1 */
+    /* Row 2 */
+    #footer .row:nth-child(2) .col-12 {
+        margin-bottom: 3rem;
+    }
+    #footer .cikampek {
+        margin-top: 0rem;
+    }
+    /* Row 2 */
+}
+
+@media screen and (max-width: 682px) {
+    #footer .copyright {
+        padding: 1.5rem;
+    }
+    #footer .copyright h5 {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    #footer {
+        margin-top: 4rem;
+    }
+}

@@ -1,0 +1,19 @@
+#fabrication {
+    margin-top: 8.5rem;
+}
+
+#fabrication .heading-info {
+    margin: 4rem 0;
+}
+
+#fabrication .row {
+    row-gap: 2rem;
+}
+
+#fabrication .top {
+    margin-top: 10rem;
+}
+
+#fabrication .row img {
+    width: 100%;
+}
