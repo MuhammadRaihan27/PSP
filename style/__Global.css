@@ -16,7 +16,6 @@
      position: relative;
      background: url("/assets/img/About Us/Header2.jpg") no-repeat center;
      background-size: cover;
-     background-attachment: fixed;
      height: 40rem;
      color: #fff;
  }
