@@ -59,13 +59,13 @@
 }
 
 @media screen and (max-width: 1400px) {
-    #about-us .deksription {
+    #about-us .deskription {
         width: inherit;
     }
 }
 
 @media screen and (max-width: 991px) {
-    #about-us .deksription {
+    #about-us .deskription {
         width: inherit;
     }
     #about-us .vision {

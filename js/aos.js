@@ -77,5 +77,5 @@ imgService.forEach((info, i) => {
 
 
 AOS.init({
-    // once: true,
+    once: true,
 });
