@@ -21,5 +21,5 @@
 @import url("Footer.css");
 @import url("OurProduct.css");
 body {
-    overflow-x: hidden;
+    overflow-x: hidden !important;
 }
