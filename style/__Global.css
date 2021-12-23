@@ -107,12 +107,12 @@
      background-color: var(--grey3);
  }
  
- .headinfo .deksription p {
+ .headinfo .deskription p {
      color: var(--grey4);
      font-weight: var(--fw-bold1);
  }
  
- .headinfo .deksription p span {
+ .headinfo .deskription p span {
      color: var(--dark-blue);
  }
  

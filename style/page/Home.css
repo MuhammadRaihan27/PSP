@@ -1,5 +1,9 @@
 /* ========== Carousel ========== */
 
+body {
+    overflow-x: hidden;
+}
+
 .swp-bg {
     height: 40rem;
 }
@@ -313,6 +317,10 @@
 
 /* ========== Section 3 ========== */
 
+#sec-3 {
+    overflow-y: hidden;
+}
+
 #sec-3 .container {
     margin-top: 8rem;
     border-radius: 12px;
@@ -469,12 +477,12 @@
     margin-top: 6.8rem;
 }
 
-#sec-4 .psp-commit .heading {
+#sec-4 .psp-commit .heading-info {
     position: relative;
     margin-bottom: 3rem;
 }
 
-#sec-4 .psp-commit .heading::after {
+#sec-4 .psp-commit .heading-info::after {
     content: "";
     position: absolute;
     bottom: -0.8rem;
