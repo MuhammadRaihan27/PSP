@@ -20,3 +20,6 @@
 @import url("Navbar.css");
 @import url("Footer.css");
 @import url("OurProduct.css");
+body {
+    overflow-x: hidden;
+}

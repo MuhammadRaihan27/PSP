@@ -1,3 +1,7 @@
+body {
+    overflow-x: hidden;
+}
+
 #fabrication {
     margin-top: 8.5rem;
 }

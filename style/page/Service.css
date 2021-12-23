@@ -1,3 +1,7 @@
+body {
+    overflow-x: hidden;
+}
+
 #services {
     margin-top: 8.5rem;
 }
