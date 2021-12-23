@@ -405,6 +405,7 @@ body {
     background-size: cover;
     object-fit: cover;
     border-top-right-radius: 10rem;
+    margin-top: 8.9rem;
 }
 
 #sec-4::after {
@@ -417,10 +418,6 @@ body {
     border-top-right-radius: 10rem;
     background-color: #525151;
     opacity: 87%;
-}
-
-#sec-4 .container {
-    margin-top: 10rem;
 }
 
 #sec-4 .col-lg-6 {

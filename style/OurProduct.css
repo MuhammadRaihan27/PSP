@@ -1,3 +1,7 @@
+#our-product {
+    overflow-x: inherit;
+}
+
 #our-product .container {
     margin-top: 8rem;
 }
