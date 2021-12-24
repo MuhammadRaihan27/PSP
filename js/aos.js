@@ -10,6 +10,7 @@ const footer = document.querySelectorAll("#footer .col-lg-4");
 const mision = document.querySelectorAll("#about-us .mision-item");
 const imgProduct = document.querySelectorAll("#product img");
 const imgEngineeringDesain = document.querySelectorAll("#engineering-desain img");
+const imgEngineering = document.querySelectorAll("#engineering img");
 const imgFabrication = document.querySelectorAll("#fabrication img");
 const imgOperation = document.querySelectorAll("#operation img");
 const imgService = document.querySelectorAll("#services-img img");
@@ -52,13 +53,17 @@ if (window.innerWidth > 450) {
         info.dataset.aosDuration = 1000;
     })
 
-
     imgSec1.forEach((info, i) => {
         info.dataset.aos = "zoom-out-down";
         info.dataset.aosDuration = 1000;
     })
 
     imgOperation.forEach((info, i) => {
+        info.dataset.aos = "zoom-out-down";
+        info.dataset.aosDuration = 1000;
+    })
+
+    imgEngineering.forEach((info, i) => {
         info.dataset.aos = "zoom-out-down";
         info.dataset.aosDuration = 1000;
     })
